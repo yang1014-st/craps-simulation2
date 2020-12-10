@@ -19,6 +19,7 @@ public class Die
 	{
 		return this.lastRoll;
 	}
+	
 
 	// protected => visible to subclasses and same-package classes
 	protected void setLastRoll(int lastRoll) // setter or mutator method
@@ -46,4 +47,9 @@ public class Die
 	{
 		return msg + this.toString();
 	}
+	
+	public static String testStatic() {
+		return "Die.testStatic()";
+	}
+
 }
